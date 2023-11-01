@@ -11,9 +11,16 @@ void insertionSort(std::vector<int>& valores){
     }
 }
 
-int main(){
+int main(int argc, char **argv){
     std::vector<int> valores;
-    valores = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+    int vector_size = atoi(argv[1]);
+
+    int input;
+    valores.resize(vector_size);
+    for(int i = 0; i < vector_size; i++){
+        std::cin >> input;
+        valores[i] = input;
+    }
 
     for(auto i : valores){
         std::cout << i << ", ";

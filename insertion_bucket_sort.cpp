@@ -19,21 +19,56 @@ void fillBuckets(std::vector<int>& valores, std::vector<std::vector<int>>& bucke
 
     int lower_bound = *std::min_element(valores.begin(), valores.end());
     int upper_bound = *std::max_element(valores.begin(), valores.end());
-    int bucket_range = ceil(double(upper_bound - lower_bound)/n_buckets);
+    int bucket_range = ceil(double(upper_bound - lower_bound + 1)/double(n_buckets));
 
-    std::cout << bucket_range << " \n";
-    for(auto i: valores){
-       //buckets[]; 
+    int vector_size = valores.size();
+    for(int i = 0; i < vector_size; i++){
+        buckets[(valores[i] - lower_bound)/bucket_range].push_back(valores[i]);
     }
+
 }
 
-int main (){
+void sortBuckets(std::vector<std::vector<int>>& buckets){
+    for(auto &i : buckets)
+        insertionSort(i);
+    
+}
+
+void printVector(const std::vector<int>& vector){
+    for (auto i : vector){
+        std::cout << i << " ";
+    }
+    std::cout << "\n";
+}
+
+void joinBuckets(std::vector<int>& valores, const std::vector<std::vector<int>>& buckets){
+    int k = 0;
+    
+    for(auto& i : buckets)
+        for(auto j : i)
+            valores[k++] = j;
+}
+
+int main (int argc, char **argv){
     std::vector<int> valores;
     std::vector<std::vector<int>> buckets;
-    int n_buckets = 2;
+    int n_buckets = atoi(argv[1]);
+    int vector_size = atoi(argv[2]);
 
-    valores = {100,101,102,103,104};
+    int input;
+    valores.resize(vector_size);
+    for(int i = 0; i < vector_size; i++){
+        std::cin >> input;
+        valores[i] = input;
+    }
+
+    printVector(valores);
+
     fillBuckets(valores, buckets, n_buckets);
+    sortBuckets(buckets);
+    joinBuckets(valores, buckets);
+
+    printVector(valores);
 
     return 0;
 }
