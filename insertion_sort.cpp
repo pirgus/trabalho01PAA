@@ -72,6 +72,7 @@ int main(int argc, char **argv){
     //std::cout << "\n";
 
     std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
+
     insertionSort(valores);
 
     std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
@@ -81,10 +82,14 @@ int main(int argc, char **argv){
 
     //std::cout << "\n";
 
+    std::cout << "************** "<< valores.size() << " elements " << "***********\n";
 
-    std::cout << "Time difference = " << std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() << "[µs]" << std::endl;
-    std::cout << "Time difference = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() << "[ns]" << std::endl;
-
+    std::cout << "Microssegundos = " << std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() << "[µs]" << std::endl;
+    std::cout << "Nanossegundos = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() << "[ns]" << std::endl;
+    std::cout << "Milissegundos: = " << std::chrono::duration_cast<std::chrono::milliseconds> (end - begin).count() << "[m]" << std::endl;
+    std::cout << "Segundos = " << std::chrono::duration_cast<std::chrono::seconds> (end - begin).count() << "[s]" << std::endl;
+    std::cout << "Minutos = " << std::chrono::duration_cast<std::chrono::minutes> (end - begin).count() << "[min]" << std::endl;
+    std::cout << "Horas = " << std::chrono::duration_cast<std::chrono::hours> (end - begin).count() << "[h]" << std::endl;
 
     return 0;
 
