@@ -4,15 +4,35 @@
 #include <fstream>
 #include <string.h>
 
-void insertionSort(std::vector<int>& valores){
-    for(int i = 0; i < valores.size(); i++){
-        for(int j = i; j > 0 && valores[j - 1] > valores[j]; j--){
-            int aux = valores[j];
-            valores[j] = valores[j - 1];
-            valores[j - 1] = aux;
+// void insertionSort(std::vector<int>& valores){
+
+//     int vector_size = valores.size();
+//     for(int i = 0; i < vector_size; i++){
+//         for(int j = i; j > 0 && valores[j - 1] > valores[j]; j--){
+//             int aux = valores[j];
+//             valores[j] = valores[j - 1];
+//             valores[j - 1] = aux;
+//         }
+//     }
+// }
+
+
+void insertionSort(std::vector<int>& valores) {
+    int n = valores.size();
+    for (int i = 1; i < n; i++) {
+        int key = valores[i];
+        int j = i - 1;
+
+        while (j >= 0 && valores[j] > key) {
+            valores[j + 1] = valores[j];
+            j--;
         }
+
+        valores[j + 1] = key;
     }
 }
+
+
 
 int main(int argc, char **argv){
     std::vector<int> valores;
