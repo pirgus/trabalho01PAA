@@ -72,15 +72,19 @@ int main (int argc, char **argv){
 
     if(strcmp(argv[3], "-a") == 0){
         name_of_file = aleatorios + argv[2] + final_arq;
+        std::cout << "A\n";
     }
     else if(strcmp(argv[3], "-d") == 0){
         name_of_file = dec + argv[2] + final_arq;
+        std::cout << "D\n";
     }
     else if(strcmp(argv[3], "-o") == 0){
         name_of_file = ord + argv[2] + final_arq;
+        std::cout << "O\n";
     }
     else if(strcmp(argv[3], "-po") == 0){
         name_of_file = po + argv[2] + final_arq;
+        std::cout << "PO\n";
     } 
     else{
         std::cout << "entrada invalida.\n";
@@ -111,32 +115,41 @@ int main (int argc, char **argv){
     std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
     //printVector(valores);
 
-    std::chrono::steady_clock::time_point begin_split = std::chrono::steady_clock::now();
+    // std::chrono::steady_clock::time_point begin_split = std::chrono::steady_clock::now();
     fillBuckets(valores, buckets, n_buckets);
-    std::chrono::steady_clock::time_point end_split = std::chrono::steady_clock::now();
+    // std::chrono::steady_clock::time_point end_split = std::chrono::steady_clock::now();
 
-    std::chrono::steady_clock::time_point begin_sorting = std::chrono::steady_clock::now();
+    // std::chrono::steady_clock::time_point begin_sorting = std::chrono::steady_clock::now();
     sortBuckets(buckets);
-    std::chrono::steady_clock::time_point end_sorting = std::chrono::steady_clock::now();
+    // std::chrono::steady_clock::time_point end_sorting = std::chrono::steady_clock::now();
 
-    std::chrono::steady_clock::time_point begin_join = std::chrono::steady_clock::now();
+    // std::chrono::steady_clock::time_point begin_join = std::chrono::steady_clock::now();
     joinBuckets(valores, buckets);
-    std::chrono::steady_clock::time_point end_join = std::chrono::steady_clock::now();
+    //std::chrono::steady_clock::time_point end_join = std::chrono::steady_clock::now();
 
     //printVector(valores);
 
     std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
 
-    std::cout << "************** " << n_buckets << "buckets " << valores.size() << " elements " << "***********\n";
-    std::cout << "Total------------------------------------------\n";
-    std::cout << "Microssegundos = " << std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() << "[µs]" << std::endl;
-    std::cout << "Nanossegundos = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() << "[ns]" << std::endl;
-    std::cout << "Milissegundos: = " << std::chrono::duration_cast<std::chrono::milliseconds> (end - begin).count() << "[m]" << std::endl;
-    std::cout << "Segundos = " << std::chrono::duration_cast<std::chrono::seconds> (end - begin).count() << "[s]" << std::endl;
-    std::cout << "Minutos = " << std::chrono::duration_cast<std::chrono::minutes> (end - begin).count() << "[min]" << std::endl;
-    std::cout << "Horas = " << std::chrono::duration_cast<std::chrono::hours> (end - begin).count() << "[h]" << std::endl;
+    std::cout << n_buckets << " buckets, " << valores.size() << " elements\n";
+    std::cout << std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() <<" µs" << std::endl;
+    std::cout << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() << " ns" << std::endl;
+    std::cout << std::chrono::duration_cast<std::chrono::milliseconds> (end - begin).count() << " ms" << std::endl;
+    std::cout << std::chrono::duration_cast<std::chrono::seconds> (end - begin).count() << " s" << std::endl;
+    std::cout << std::chrono::duration_cast<std::chrono::minutes> (end - begin).count() << " m" << std::endl;
+    //std::cout << std::chrono::duration_cast<std::chrono::hours> (end - begin).count() << " h" << std::endl;
+    std::cout << "\n";
 
-    std::cout << "Split------------------------------------------\n";
+    // std::cout << "************** " << n_buckets << "buckets " << valores.size() << " elements " << "***********\n";
+    // std::cout << "Total------------------------------------------\n";
+    // std::cout << "Microssegundos = " << std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() << "[µs]" << std::endl;
+    // std::cout << "Nanossegundos = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end - begin).count() << "[ns]" << std::endl;
+    // std::cout << "Milissegundos: = " << std::chrono::duration_cast<std::chrono::milliseconds> (end - begin).count() << "[m]" << std::endl;
+    // std::cout << "Segundos = " << std::chrono::duration_cast<std::chrono::seconds> (end - begin).count() << "[s]" << std::endl;
+    // std::cout << "Minutos = " << std::chrono::duration_cast<std::chrono::minutes> (end - begin).count() << "[min]" << std::endl;
+    // std::cout << "Horas = " << std::chrono::duration_cast<std::chrono::hours> (end - begin).count() << "[h]" << std::endl;
+
+    /*std::cout << "Split------------------------------------------\n";
     std::cout << "Microssegundos = " << std::chrono::duration_cast<std::chrono::microseconds>(end_split - begin_split).count() << "[µs]" << std::endl;
     std::cout << "Nanossegundos = " << std::chrono::duration_cast<std::chrono::nanoseconds> (end_split - begin_split).count() << "[ns]" << std::endl;
     std::cout << "Milissegundos: = " << std::chrono::duration_cast<std::chrono::milliseconds> (end_split - begin_split).count() << "[m]" << std::endl;
@@ -158,7 +171,7 @@ int main (int argc, char **argv){
     std::cout << "Milissegundos: = " << std::chrono::duration_cast<std::chrono::milliseconds> (end_join - begin_join).count() << "[m]" << std::endl;
     std::cout << "Segundos = " << std::chrono::duration_cast<std::chrono::seconds> (end_join - begin_join).count() << "[s]" << std::endl;
     std::cout << "Minutos = " << std::chrono::duration_cast<std::chrono::minutes> (end_join - begin_join).count() << "[min]" << std::endl;
-    std::cout << "Horas = " << std::chrono::duration_cast<std::chrono::hours> (end_join - begin_join).count() << "[h]" << std::endl;
+    std::cout << "Horas = " << std::chrono::duration_cast<std::chrono::hours> (end_join - begin_join).count() << "[h]" << std::endl;*/
 
     return 0;
 }

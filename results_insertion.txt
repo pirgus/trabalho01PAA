@@ -1,0 +1,720 @@
+A
+100 elements
+10 µs
+10557 ns
+0 ms
+0 s
+0 m
+0 h
+
+D
+100 elements
+14 µs
+14078 ns
+0 ms
+0 s
+0 m
+0 h
+
+O
+100 elements
+1 µs
+1204 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+100 elements
+7 µs
+7673 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+200 elements
+29 µs
+29458 ns
+0 ms
+0 s
+0 m
+0 h
+
+D
+200 elements
+45 µs
+45489 ns
+0 ms
+0 s
+0 m
+0 h
+
+O
+200 elements
+1 µs
+1850 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+200 elements
+12 µs
+12808 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+500 elements
+143 µs
+143243 ns
+0 ms
+0 s
+0 m
+0 h
+
+D
+500 elements
+252 µs
+252043 ns
+0 ms
+0 s
+0 m
+0 h
+
+O
+500 elements
+3 µs
+3650 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+500 elements
+22 µs
+22519 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+1000 elements
+613 µs
+613343 ns
+0 ms
+0 s
+0 m
+0 h
+
+D
+1000 elements
+973 µs
+973926 ns
+0 ms
+0 s
+0 m
+0 h
+
+O
+1000 elements
+6 µs
+6777 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+1000 elements
+40 µs
+40171 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+2000 elements
+2007 µs
+2007186 ns
+2 ms
+0 s
+0 m
+0 h
+
+D
+2000 elements
+3869 µs
+3869125 ns
+3 ms
+0 s
+0 m
+0 h
+
+O
+2000 elements
+23 µs
+23471 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+2000 elements
+73 µs
+73834 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+5000 elements
+12354 µs
+12354461 ns
+12 ms
+0 s
+0 m
+0 h
+
+D
+5000 elements
+24330 µs
+24330850 ns
+24 ms
+0 s
+0 m
+0 h
+
+O
+5000 elements
+32 µs
+32010 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+5000 elements
+183 µs
+183600 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+7500 elements
+28737 µs
+28737626 ns
+28 ms
+0 s
+0 m
+0 h
+
+D
+7500 elements
+53514 µs
+53514426 ns
+53 ms
+0 s
+0 m
+0 h
+
+O
+7500 elements
+47 µs
+47607 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+7500 elements
+293 µs
+293142 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+10000 elements
+48658 µs
+48658776 ns
+48 ms
+0 s
+0 m
+0 h
+
+D
+10000 elements
+107784 µs
+107784834 ns
+107 ms
+0 s
+0 m
+0 h
+
+O
+10000 elements
+63 µs
+63377 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+10000 elements
+418 µs
+418173 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+15000 elements
+107915 µs
+107915292 ns
+107 ms
+0 s
+0 m
+0 h
+
+D
+15000 elements
+226032 µs
+226032810 ns
+226 ms
+0 s
+0 m
+0 h
+
+O
+15000 elements
+94 µs
+94764 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+15000 elements
+501 µs
+501159 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+30000 elements
+420663 µs
+420663319 ns
+420 ms
+0 s
+0 m
+0 h
+
+D
+30000 elements
+747150 µs
+747150750 ns
+747 ms
+0 s
+0 m
+0 h
+
+O
+30000 elements
+168 µs
+168212 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+30000 elements
+946 µs
+946378 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+50000 elements
+1025073 µs
+1025073489 ns
+1025 ms
+1 s
+0 m
+0 h
+
+D
+50000 elements
+1940499 µs
+1940499248 ns
+1940 ms
+1 s
+0 m
+0 h
+
+O
+50000 elements
+228 µs
+228623 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+50000 elements
+1136 µs
+1136950 ns
+1 ms
+0 s
+0 m
+0 h
+
+A
+75000 elements
+1950739 µs
+1950739306 ns
+1950 ms
+1 s
+0 m
+0 h
+
+D
+75000 elements
+3609813 µs
+3609813850 ns
+3609 ms
+3 s
+0 m
+0 h
+
+O
+75000 elements
+289 µs
+289725 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+75000 elements
+908 µs
+908881 ns
+0 ms
+0 s
+0 m
+0 h
+
+A
+100000 elements
+3117924 µs
+3117924483 ns
+3117 ms
+3 s
+0 m
+0 h
+
+D
+100000 elements
+6483599 µs
+6483599188 ns
+6483 ms
+6 s
+0 m
+0 h
+
+O
+100000 elements
+418 µs
+418438 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+100000 elements
+1122 µs
+1122599 ns
+1 ms
+0 s
+0 m
+0 h
+
+A
+200000 elements
+12047412 µs
+12047412426 ns
+12047 ms
+12 s
+0 m
+0 h
+
+D
+200000 elements
+22517534 µs
+22517534661 ns
+22517 ms
+22 s
+0 m
+0 h
+
+O
+200000 elements
+772 µs
+772617 ns
+0 ms
+0 s
+0 m
+0 h
+
+PO
+200000 elements
+1748 µs
+1748551 ns
+1 ms
+0 s
+0 m
+0 h
+
+A
+500000 elements
+68574783 µs
+68574783026 ns
+68574 ms
+68 s
+1 m
+0 h
+
+D
+500000 elements
+137128521 µs
+137128521737 ns
+137128 ms
+137 s
+2 m
+0 h
+
+O
+500000 elements
+2343 µs
+2343249 ns
+2 ms
+0 s
+0 m
+0 h
+
+PO
+500000 elements
+2836 µs
+2836608 ns
+2 ms
+0 s
+0 m
+0 h
+
+A
+750000 elements
+156289482 µs
+156289482568 ns
+156289 ms
+156 s
+2 m
+0 h
+
+D
+750000 elements
+318821883 µs
+318821883459 ns
+318821 ms
+318 s
+5 m
+0 h
+
+O
+750000 elements
+4271 µs
+4271452 ns
+4 ms
+0 s
+0 m
+0 h
+
+PO
+750000 elements
+4878 µs
+4878194 ns
+4 ms
+0 s
+0 m
+0 h
+
+A
+1000000 elements
+282367886 µs
+282367886308 ns
+282367 ms
+282 s
+4 m
+0 h
+
+D
+1000000 elements
+560551569 µs
+560551569408 ns
+560551 ms
+560 s
+9 m
+0 h
+
+O
+1000000 elements
+4655 µs
+4655299 ns
+4 ms
+0 s
+0 m
+0 h
+
+PO
+1000000 elements
+6682 µs
+6682702 ns
+6 ms
+0 s
+0 m
+0 h
+
+A
+1250000 elements
+478999870 µs
+478999870266 ns
+478999 ms
+478 s
+7 m
+0 h
+
+D
+1250000 elements
+863508158 µs
+863508158221 ns
+863508 ms
+863 s
+14 m
+0 h
+
+O
+1250000 elements
+5325 µs
+5325984 ns
+5 ms
+0 s
+0 m
+0 h
+
+PO
+1250000 elements
+7264 µs
+7264184 ns
+7 ms
+0 s
+0 m
+0 h
+
+A
+1500000 elements
+634134671 µs
+634134671621 ns
+634134 ms
+634 s
+10 m
+0 h
+
+D
+1500000 elements
+1246965492 µs
+1246965492516 ns
+1246965 ms
+1246 s
+20 m
+0 h
+
+O
+1500000 elements
+6982 µs
+6982892 ns
+6 ms
+0 s
+0 m
+0 h
+
+PO
+1500000 elements
+8526 µs
+8526430 ns
+8 ms
+0 s
+0 m
+0 h
+
+A
+2000000 elements
+1122280218 µs
+1122280218058 ns
+1122280 ms
+1122 s
+18 m
+0 h
+
+D
+2000000 elements
+2293746193 µs
+2293746193008 ns
+2293746 ms
+2293 s
+38 m
+0 h
+
+O
+2000000 elements
+8686 µs
+8686438 ns
+8 ms
+0 s
+0 m
+0 h
+
+PO
+2000000 elements
+11143 µs
+11143626 ns
+11 ms
+0 s
+0 m
+0 h
+

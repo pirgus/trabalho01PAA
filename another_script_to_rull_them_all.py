@@ -5,12 +5,13 @@ numero_de_elementos = [100, 200, 500, 1000, 2000, 5000, 7500, 10000, 15000, 3000
                        50000, 75000, 100000, 200000, 500000, 750000, 1000000, 1250000, 
                        1500000, 2000000]
 #numero_de_elementos = [100, 200]
+numero_de_buckets = [10, 100, 1000]
 tipo_de_vetor = ["a", "d", "o", "po"]
 
-combinacoes = list(itertools.product(numero_de_elementos, tipo_de_vetor))
+combinacoes = list(itertools.product(numero_de_elementos, (itertools.product(numero_de_buckets, tipo_de_vetor))))
 
-for numero_de_elementos, tipo_de_vetor in combinacoes:
-    comando = f"./insertion_sort {numero_de_elementos} -{tipo_de_vetor} >> results_insertion.txt"
+for numero_de_elementos, (numero_de_buckets, tipo_de_vetor) in combinacoes:
+    comando = f"./insertion_bucket_sort {numero_de_buckets} {numero_de_elementos} -{tipo_de_vetor} >> results_insertion_bucketsort.txt"
     try:
         subprocess.run(comando, shell=True, check=True)
     except subprocess.CalledProcessError as e:

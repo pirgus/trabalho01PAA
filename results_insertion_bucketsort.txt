@@ -1,0 +1,1920 @@
+A
+10 buckets, 100 elements
+24 µs
+24808 ns
+0 ms
+0 s
+0 m
+
+D
+10 buckets, 100 elements
+18 µs
+18892 ns
+0 ms
+0 s
+0 m
+
+O
+10 buckets, 100 elements
+18 µs
+18430 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 100 elements
+20 µs
+20844 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 100 elements
+31 µs
+31650 ns
+0 ms
+0 s
+0 m
+
+D
+100 buckets, 100 elements
+44 µs
+44494 ns
+0 ms
+0 s
+0 m
+
+O
+100 buckets, 100 elements
+37 µs
+37233 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 100 elements
+35 µs
+35387 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 100 elements
+78 µs
+78784 ns
+0 ms
+0 s
+0 m
+
+D
+1000 buckets, 100 elements
+64 µs
+64903 ns
+0 ms
+0 s
+0 m
+
+O
+1000 buckets, 100 elements
+62 µs
+62943 ns
+0 ms
+0 s
+0 m
+
+PO
+1000 buckets, 100 elements
+64 µs
+64538 ns
+0 ms
+0 s
+0 m
+
+A
+10 buckets, 200 elements
+41 µs
+41276 ns
+0 ms
+0 s
+0 m
+
+D
+10 buckets, 200 elements
+29 µs
+29111 ns
+0 ms
+0 s
+0 m
+
+O
+10 buckets, 200 elements
+23 µs
+23647 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 200 elements
+34 µs
+34172 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 200 elements
+54 µs
+54549 ns
+0 ms
+0 s
+0 m
+
+D
+100 buckets, 200 elements
+45 µs
+45570 ns
+0 ms
+0 s
+0 m
+
+O
+100 buckets, 200 elements
+48 µs
+48486 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 200 elements
+58 µs
+58486 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 200 elements
+88 µs
+88360 ns
+0 ms
+0 s
+0 m
+
+D
+1000 buckets, 200 elements
+79 µs
+79587 ns
+0 ms
+0 s
+0 m
+
+O
+1000 buckets, 200 elements
+83 µs
+83923 ns
+0 ms
+0 s
+0 m
+
+PO
+1000 buckets, 200 elements
+80 µs
+80967 ns
+0 ms
+0 s
+0 m
+
+A
+10 buckets, 500 elements
+75 µs
+75541 ns
+0 ms
+0 s
+0 m
+
+D
+10 buckets, 500 elements
+70 µs
+70210 ns
+0 ms
+0 s
+0 m
+
+O
+10 buckets, 500 elements
+34 µs
+34869 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 500 elements
+45 µs
+45364 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 500 elements
+114 µs
+114707 ns
+0 ms
+0 s
+0 m
+
+D
+100 buckets, 500 elements
+88 µs
+88433 ns
+0 ms
+0 s
+0 m
+
+O
+100 buckets, 500 elements
+84 µs
+84404 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 500 elements
+90 µs
+90502 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 500 elements
+153 µs
+153822 ns
+0 ms
+0 s
+0 m
+
+D
+1000 buckets, 500 elements
+145 µs
+145448 ns
+0 ms
+0 s
+0 m
+
+O
+1000 buckets, 500 elements
+144 µs
+144233 ns
+0 ms
+0 s
+0 m
+
+PO
+1000 buckets, 500 elements
+147 µs
+147431 ns
+0 ms
+0 s
+0 m
+
+A
+10 buckets, 1000 elements
+138 µs
+138619 ns
+0 ms
+0 s
+0 m
+
+D
+10 buckets, 1000 elements
+166 µs
+166334 ns
+0 ms
+0 s
+0 m
+
+O
+10 buckets, 1000 elements
+47 µs
+47043 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 1000 elements
+60 µs
+60177 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 1000 elements
+186 µs
+186657 ns
+0 ms
+0 s
+0 m
+
+D
+100 buckets, 1000 elements
+191 µs
+191272 ns
+0 ms
+0 s
+0 m
+
+O
+100 buckets, 1000 elements
+111 µs
+111722 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 1000 elements
+123 µs
+123804 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 1000 elements
+401 µs
+401883 ns
+0 ms
+0 s
+0 m
+
+D
+1000 buckets, 1000 elements
+268 µs
+268369 ns
+0 ms
+0 s
+0 m
+
+O
+1000 buckets, 1000 elements
+295 µs
+295293 ns
+0 ms
+0 s
+0 m
+
+PO
+1000 buckets, 1000 elements
+253 µs
+253480 ns
+0 ms
+0 s
+0 m
+
+A
+10 buckets, 2000 elements
+446 µs
+446469 ns
+0 ms
+0 s
+0 m
+
+D
+10 buckets, 2000 elements
+507 µs
+507246 ns
+0 ms
+0 s
+0 m
+
+O
+10 buckets, 2000 elements
+80 µs
+80885 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 2000 elements
+97 µs
+97892 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 2000 elements
+313 µs
+313596 ns
+0 ms
+0 s
+0 m
+
+D
+100 buckets, 2000 elements
+234 µs
+234914 ns
+0 ms
+0 s
+0 m
+
+O
+100 buckets, 2000 elements
+167 µs
+167434 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 2000 elements
+178 µs
+178551 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 2000 elements
+764 µs
+764175 ns
+0 ms
+0 s
+0 m
+
+D
+1000 buckets, 2000 elements
+523 µs
+523101 ns
+0 ms
+0 s
+0 m
+
+O
+1000 buckets, 2000 elements
+503 µs
+503433 ns
+0 ms
+0 s
+0 m
+
+PO
+1000 buckets, 2000 elements
+499 µs
+499368 ns
+0 ms
+0 s
+0 m
+
+A
+10 buckets, 5000 elements
+1832 µs
+1832856 ns
+1 ms
+0 s
+0 m
+
+D
+10 buckets, 5000 elements
+3612 µs
+3612758 ns
+3 ms
+0 s
+0 m
+
+O
+10 buckets, 5000 elements
+219 µs
+219515 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 5000 elements
+259 µs
+259273 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 5000 elements
+793 µs
+793952 ns
+0 ms
+0 s
+0 m
+
+D
+100 buckets, 5000 elements
+731 µs
+731704 ns
+0 ms
+0 s
+0 m
+
+O
+100 buckets, 5000 elements
+300 µs
+300624 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 5000 elements
+332 µs
+332758 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 5000 elements
+1223 µs
+1223129 ns
+1 ms
+0 s
+0 m
+
+D
+1000 buckets, 5000 elements
+844 µs
+844495 ns
+0 ms
+0 s
+0 m
+
+O
+1000 buckets, 5000 elements
+750 µs
+750489 ns
+0 ms
+0 s
+0 m
+
+PO
+1000 buckets, 5000 elements
+873 µs
+873965 ns
+0 ms
+0 s
+0 m
+
+A
+10 buckets, 7500 elements
+3337 µs
+3337605 ns
+3 ms
+0 s
+0 m
+
+D
+10 buckets, 7500 elements
+10776 µs
+10776038 ns
+10 ms
+0 s
+0 m
+
+O
+10 buckets, 7500 elements
+294 µs
+294419 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 7500 elements
+296 µs
+296575 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 7500 elements
+1005 µs
+1005167 ns
+1 ms
+0 s
+0 m
+
+D
+100 buckets, 7500 elements
+1247 µs
+1247118 ns
+1 ms
+0 s
+0 m
+
+O
+100 buckets, 7500 elements
+386 µs
+386303 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 7500 elements
+372 µs
+372557 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 7500 elements
+1536 µs
+1536097 ns
+1 ms
+0 s
+0 m
+
+D
+1000 buckets, 7500 elements
+1670 µs
+1670669 ns
+1 ms
+0 s
+0 m
+
+O
+1000 buckets, 7500 elements
+1022 µs
+1022738 ns
+1 ms
+0 s
+0 m
+
+PO
+1000 buckets, 7500 elements
+982 µs
+982127 ns
+0 ms
+0 s
+0 m
+
+A
+10 buckets, 10000 elements
+6924 µs
+6924239 ns
+6 ms
+0 s
+0 m
+
+D
+10 buckets, 10000 elements
+11211 µs
+11211891 ns
+11 ms
+0 s
+0 m
+
+O
+10 buckets, 10000 elements
+396 µs
+396968 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 10000 elements
+717 µs
+717657 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 10000 elements
+2081 µs
+2081659 ns
+2 ms
+0 s
+0 m
+
+D
+100 buckets, 10000 elements
+1893 µs
+1893454 ns
+1 ms
+0 s
+0 m
+
+O
+100 buckets, 10000 elements
+508 µs
+508828 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 10000 elements
+498 µs
+498950 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 10000 elements
+2100 µs
+2100312 ns
+2 ms
+0 s
+0 m
+
+D
+1000 buckets, 10000 elements
+1375 µs
+1375669 ns
+1 ms
+0 s
+0 m
+
+O
+1000 buckets, 10000 elements
+1197 µs
+1197996 ns
+1 ms
+0 s
+0 m
+
+PO
+1000 buckets, 10000 elements
+1303 µs
+1303003 ns
+1 ms
+0 s
+0 m
+
+A
+10 buckets, 15000 elements
+13157 µs
+13157051 ns
+13 ms
+0 s
+0 m
+
+D
+10 buckets, 15000 elements
+24152 µs
+24152187 ns
+24 ms
+0 s
+0 m
+
+O
+10 buckets, 15000 elements
+469 µs
+469037 ns
+0 ms
+0 s
+0 m
+
+PO
+10 buckets, 15000 elements
+911 µs
+911631 ns
+0 ms
+0 s
+0 m
+
+A
+100 buckets, 15000 elements
+2427 µs
+2427518 ns
+2 ms
+0 s
+0 m
+
+D
+100 buckets, 15000 elements
+3183 µs
+3183693 ns
+3 ms
+0 s
+0 m
+
+O
+100 buckets, 15000 elements
+895 µs
+895166 ns
+0 ms
+0 s
+0 m
+
+PO
+100 buckets, 15000 elements
+625 µs
+625464 ns
+0 ms
+0 s
+0 m
+
+A
+1000 buckets, 15000 elements
+3038 µs
+3038375 ns
+3 ms
+0 s
+0 m
+
+D
+1000 buckets, 15000 elements
+1686 µs
+1686244 ns
+1 ms
+0 s
+0 m
+
+O
+1000 buckets, 15000 elements
+1285 µs
+1285203 ns
+1 ms
+0 s
+0 m
+
+PO
+1000 buckets, 15000 elements
+2127 µs
+2127120 ns
+2 ms
+0 s
+0 m
+
+A
+10 buckets, 30000 elements
+53490 µs
+53490775 ns
+53 ms
+0 s
+0 m
+
+D
+10 buckets, 30000 elements
+102083 µs
+102083905 ns
+102 ms
+0 s
+0 m
+
+O
+10 buckets, 30000 elements
+1396 µs
+1396070 ns
+1 ms
+0 s
+0 m
+
+PO
+10 buckets, 30000 elements
+1211 µs
+1211224 ns
+1 ms
+0 s
+0 m
+
+A
+100 buckets, 30000 elements
+6583 µs
+6583817 ns
+6 ms
+0 s
+0 m
+
+D
+100 buckets, 30000 elements
+10690 µs
+10690012 ns
+10 ms
+0 s
+0 m
+
+O
+100 buckets, 30000 elements
+1066 µs
+1066370 ns
+1 ms
+0 s
+0 m
+
+PO
+100 buckets, 30000 elements
+1113 µs
+1113150 ns
+1 ms
+0 s
+0 m
+
+A
+1000 buckets, 30000 elements
+5290 µs
+5290852 ns
+5 ms
+0 s
+0 m
+
+D
+1000 buckets, 30000 elements
+3224 µs
+3224878 ns
+3 ms
+0 s
+0 m
+
+O
+1000 buckets, 30000 elements
+1796 µs
+1796244 ns
+1 ms
+0 s
+0 m
+
+PO
+1000 buckets, 30000 elements
+3054 µs
+3054428 ns
+3 ms
+0 s
+0 m
+
+A
+10 buckets, 50000 elements
+177338 µs
+177338992 ns
+177 ms
+0 s
+0 m
+
+D
+10 buckets, 50000 elements
+292120 µs
+292120660 ns
+292 ms
+0 s
+0 m
+
+O
+10 buckets, 50000 elements
+1304 µs
+1304115 ns
+1 ms
+0 s
+0 m
+
+PO
+10 buckets, 50000 elements
+1896 µs
+1896980 ns
+1 ms
+0 s
+0 m
+
+A
+100 buckets, 50000 elements
+14418 µs
+14418382 ns
+14 ms
+0 s
+0 m
+
+D
+100 buckets, 50000 elements
+23499 µs
+23499402 ns
+23 ms
+0 s
+0 m
+
+O
+100 buckets, 50000 elements
+1472 µs
+1472132 ns
+1 ms
+0 s
+0 m
+
+PO
+100 buckets, 50000 elements
+1808 µs
+1808791 ns
+1 ms
+0 s
+0 m
+
+A
+1000 buckets, 50000 elements
+5742 µs
+5742836 ns
+5 ms
+0 s
+0 m
+
+D
+1000 buckets, 50000 elements
+5740 µs
+5740411 ns
+5 ms
+0 s
+0 m
+
+O
+1000 buckets, 50000 elements
+2789 µs
+2789960 ns
+2 ms
+0 s
+0 m
+
+PO
+1000 buckets, 50000 elements
+2173 µs
+2173883 ns
+2 ms
+0 s
+0 m
+
+A
+10 buckets, 75000 elements
+249543 µs
+249543516 ns
+249 ms
+0 s
+0 m
+
+D
+10 buckets, 75000 elements
+494828 µs
+494828041 ns
+494 ms
+0 s
+0 m
+
+O
+10 buckets, 75000 elements
+2119 µs
+2119898 ns
+2 ms
+0 s
+0 m
+
+PO
+10 buckets, 75000 elements
+2472 µs
+2472482 ns
+2 ms
+0 s
+0 m
+
+A
+100 buckets, 75000 elements
+32079 µs
+32079320 ns
+32 ms
+0 s
+0 m
+
+D
+100 buckets, 75000 elements
+71832 µs
+71832813 ns
+71 ms
+0 s
+0 m
+
+O
+100 buckets, 75000 elements
+2539 µs
+2539881 ns
+2 ms
+0 s
+0 m
+
+PO
+100 buckets, 75000 elements
+2442 µs
+2442694 ns
+2 ms
+0 s
+0 m
+
+A
+1000 buckets, 75000 elements
+9823 µs
+9823286 ns
+9 ms
+0 s
+0 m
+
+D
+1000 buckets, 75000 elements
+7647 µs
+7647020 ns
+7 ms
+0 s
+0 m
+
+O
+1000 buckets, 75000 elements
+3015 µs
+3015341 ns
+3 ms
+0 s
+0 m
+
+PO
+1000 buckets, 75000 elements
+2997 µs
+2997522 ns
+2 ms
+0 s
+0 m
+
+A
+10 buckets, 100000 elements
+470299 µs
+470299655 ns
+470 ms
+0 s
+0 m
+
+D
+10 buckets, 100000 elements
+947826 µs
+947826819 ns
+947 ms
+0 s
+0 m
+
+O
+10 buckets, 100000 elements
+2793 µs
+2793479 ns
+2 ms
+0 s
+0 m
+
+PO
+10 buckets, 100000 elements
+3395 µs
+3395771 ns
+3 ms
+0 s
+0 m
+
+A
+100 buckets, 100000 elements
+50221 µs
+50221468 ns
+50 ms
+0 s
+0 m
+
+D
+100 buckets, 100000 elements
+98482 µs
+98482572 ns
+98 ms
+0 s
+0 m
+
+O
+100 buckets, 100000 elements
+2812 µs
+2812942 ns
+2 ms
+0 s
+0 m
+
+PO
+100 buckets, 100000 elements
+2831 µs
+2831171 ns
+2 ms
+0 s
+0 m
+
+A
+1000 buckets, 100000 elements
+10271 µs
+10271432 ns
+10 ms
+0 s
+0 m
+
+D
+1000 buckets, 100000 elements
+9415 µs
+9415796 ns
+9 ms
+0 s
+0 m
+
+O
+1000 buckets, 100000 elements
+2766 µs
+2766515 ns
+2 ms
+0 s
+0 m
+
+PO
+1000 buckets, 100000 elements
+2775 µs
+2775071 ns
+2 ms
+0 s
+0 m
+
+A
+10 buckets, 200000 elements
+1686994 µs
+1686994559 ns
+1686 ms
+1 s
+0 m
+
+D
+10 buckets, 200000 elements
+2781058 µs
+2781058020 ns
+2781 ms
+2 s
+0 m
+
+O
+10 buckets, 200000 elements
+4577 µs
+4577249 ns
+4 ms
+0 s
+0 m
+
+PO
+10 buckets, 200000 elements
+6226 µs
+6226647 ns
+6 ms
+0 s
+0 m
+
+A
+100 buckets, 200000 elements
+167024 µs
+167024096 ns
+167 ms
+0 s
+0 m
+
+D
+100 buckets, 200000 elements
+312881 µs
+312881683 ns
+312 ms
+0 s
+0 m
+
+O
+100 buckets, 200000 elements
+6082 µs
+6082218 ns
+6 ms
+0 s
+0 m
+
+PO
+100 buckets, 200000 elements
+8553 µs
+8553824 ns
+8 ms
+0 s
+0 m
+
+A
+1000 buckets, 200000 elements
+27696 µs
+27696141 ns
+27 ms
+0 s
+0 m
+
+D
+1000 buckets, 200000 elements
+36703 µs
+36703223 ns
+36 ms
+0 s
+0 m
+
+O
+1000 buckets, 200000 elements
+6076 µs
+6076413 ns
+6 ms
+0 s
+0 m
+
+PO
+1000 buckets, 200000 elements
+7785 µs
+7785810 ns
+7 ms
+0 s
+0 m
+
+A
+10 buckets, 500000 elements
+9095080 µs
+9095080942 ns
+9095 ms
+9 s
+0 m
+
+D
+10 buckets, 500000 elements
+19284554 µs
+19284554917 ns
+19284 ms
+19 s
+0 m
+
+O
+10 buckets, 500000 elements
+14694 µs
+14694599 ns
+14 ms
+0 s
+0 m
+
+PO
+10 buckets, 500000 elements
+21820 µs
+21820938 ns
+21 ms
+0 s
+0 m
+
+A
+100 buckets, 500000 elements
+1036065 µs
+1036065284 ns
+1036 ms
+1 s
+0 m
+
+D
+100 buckets, 500000 elements
+2082677 µs
+2082677490 ns
+2082 ms
+2 s
+0 m
+
+O
+100 buckets, 500000 elements
+13177 µs
+13177146 ns
+13 ms
+0 s
+0 m
+
+PO
+100 buckets, 500000 elements
+14017 µs
+14017036 ns
+14 ms
+0 s
+0 m
+
+A
+1000 buckets, 500000 elements
+119556 µs
+119556387 ns
+119 ms
+0 s
+0 m
+
+D
+1000 buckets, 500000 elements
+196377 µs
+196377529 ns
+196 ms
+0 s
+0 m
+
+O
+1000 buckets, 500000 elements
+15644 µs
+15644764 ns
+15 ms
+0 s
+0 m
+
+PO
+1000 buckets, 500000 elements
+15503 µs
+15503783 ns
+15 ms
+0 s
+0 m
+
+A
+10 buckets, 750000 elements
+22350834 µs
+22350834092 ns
+22350 ms
+22 s
+0 m
+
+D
+10 buckets, 750000 elements
+32915592 µs
+32915592341 ns
+32915 ms
+32 s
+0 m
+
+O
+10 buckets, 750000 elements
+20028 µs
+20028632 ns
+20 ms
+0 s
+0 m
+
+PO
+10 buckets, 750000 elements
+21746 µs
+21746928 ns
+21 ms
+0 s
+0 m
+
+A
+100 buckets, 750000 elements
+1775832 µs
+1775832456 ns
+1775 ms
+1 s
+0 m
+
+D
+100 buckets, 750000 elements
+3448569 µs
+3448569373 ns
+3448 ms
+3 s
+0 m
+
+O
+100 buckets, 750000 elements
+14598 µs
+14598874 ns
+14 ms
+0 s
+0 m
+
+PO
+100 buckets, 750000 elements
+18793 µs
+18793402 ns
+18 ms
+0 s
+0 m
+
+A
+1000 buckets, 750000 elements
+195365 µs
+195365129 ns
+195 ms
+0 s
+0 m
+
+D
+1000 buckets, 750000 elements
+440512 µs
+440512602 ns
+440 ms
+0 s
+0 m
+
+O
+1000 buckets, 750000 elements
+16790 µs
+16790448 ns
+16 ms
+0 s
+0 m
+
+PO
+1000 buckets, 750000 elements
+20639 µs
+20639703 ns
+20 ms
+0 s
+0 m
+
+A
+10 buckets, 1000000 elements
+29052272 µs
+29052272070 ns
+29052 ms
+29 s
+0 m
+
+D
+10 buckets, 1000000 elements
+56671624 µs
+56671624855 ns
+56671 ms
+56 s
+0 m
+
+O
+10 buckets, 1000000 elements
+20027 µs
+20027617 ns
+20 ms
+0 s
+0 m
+
+PO
+10 buckets, 1000000 elements
+22669 µs
+22669564 ns
+22 ms
+0 s
+0 m
+
+A
+100 buckets, 1000000 elements
+3001124 µs
+3001124325 ns
+3001 ms
+3 s
+0 m
+
+D
+100 buckets, 1000000 elements
+5503938 µs
+5503938829 ns
+5503 ms
+5 s
+0 m
+
+O
+100 buckets, 1000000 elements
+17412 µs
+17412036 ns
+17 ms
+0 s
+0 m
+
+PO
+100 buckets, 1000000 elements
+19103 µs
+19103450 ns
+19 ms
+0 s
+0 m
+
+A
+1000 buckets, 1000000 elements
+307381 µs
+307381238 ns
+307 ms
+0 s
+0 m
+
+D
+1000 buckets, 1000000 elements
+516520 µs
+516520151 ns
+516 ms
+0 s
+0 m
+
+O
+1000 buckets, 1000000 elements
+19278 µs
+19278387 ns
+19 ms
+0 s
+0 m
+
+PO
+1000 buckets, 1000000 elements
+23305 µs
+23305728 ns
+23 ms
+0 s
+0 m
+
+A
+10 buckets, 1250000 elements
+43155769 µs
+43155769984 ns
+43155 ms
+43 s
+0 m
+
+D
+10 buckets, 1250000 elements
+86089816 µs
+86089816138 ns
+86089 ms
+86 s
+1 m
+
+O
+10 buckets, 1250000 elements
+25227 µs
+25227719 ns
+25 ms
+0 s
+0 m
+
+PO
+10 buckets, 1250000 elements
+25961 µs
+25961816 ns
+25 ms
+0 s
+0 m
+
+A
+100 buckets, 1250000 elements
+4454838 µs
+4454838834 ns
+4454 ms
+4 s
+0 m
+
+D
+100 buckets, 1250000 elements
+10280751 µs
+10280751629 ns
+10280 ms
+10 s
+0 m
+
+O
+100 buckets, 1250000 elements
+23227 µs
+23227166 ns
+23 ms
+0 s
+0 m
+
+PO
+100 buckets, 1250000 elements
+21874 µs
+21874080 ns
+21 ms
+0 s
+0 m
+
+A
+1000 buckets, 1250000 elements
+468321 µs
+468321704 ns
+468 ms
+0 s
+0 m
+
+D
+1000 buckets, 1250000 elements
+780813 µs
+780813406 ns
+780 ms
+0 s
+0 m
+
+O
+1000 buckets, 1250000 elements
+26263 µs
+26263317 ns
+26 ms
+0 s
+0 m
+
+PO
+1000 buckets, 1250000 elements
+26037 µs
+26037327 ns
+26 ms
+0 s
+0 m
+
+A
+10 buckets, 1500000 elements
+62028461 µs
+62028461751 ns
+62028 ms
+62 s
+1 m
+
+D
+10 buckets, 1500000 elements
+124984493 µs
+124984493546 ns
+124984 ms
+124 s
+2 m
+
+O
+10 buckets, 1500000 elements
+33617 µs
+33617892 ns
+33 ms
+0 s
+0 m
+
+PO
+10 buckets, 1500000 elements
+35541 µs
+35541155 ns
+35 ms
+0 s
+0 m
+
+A
+100 buckets, 1500000 elements
+7546505 µs
+7546505313 ns
+7546 ms
+7 s
+0 m
+
+D
+100 buckets, 1500000 elements
+12531608 µs
+12531608664 ns
+12531 ms
+12 s
+0 m
+
+O
+100 buckets, 1500000 elements
+26091 µs
+26091139 ns
+26 ms
+0 s
+0 m
+
+PO
+100 buckets, 1500000 elements
+28105 µs
+28105611 ns
+28 ms
+0 s
+0 m
+
+A
+1000 buckets, 1500000 elements
+554740 µs
+554740393 ns
+554 ms
+0 s
+0 m
+
+D
+1000 buckets, 1500000 elements
+1085689 µs
+1085689515 ns
+1085 ms
+1 s
+0 m
+
+O
+1000 buckets, 1500000 elements
+31024 µs
+31024272 ns
+31 ms
+0 s
+0 m
+
+PO
+1000 buckets, 1500000 elements
+30160 µs
+30160701 ns
+30 ms
+0 s
+0 m
+
+A
+10 buckets, 2000000 elements
+112875813 µs
+112875813576 ns
+112875 ms
+112 s
+1 m
+
+D
+10 buckets, 2000000 elements
+224043060 µs
+224043060096 ns
+224043 ms
+224 s
+3 m
+
+O
+10 buckets, 2000000 elements
+41388 µs
+41388530 ns
+41 ms
+0 s
+0 m
+
+PO
+10 buckets, 2000000 elements
+41934 µs
+41934707 ns
+41 ms
+0 s
+0 m
+
+A
+100 buckets, 2000000 elements
+10839396 µs
+10839396735 ns
+10839 ms
+10 s
+0 m
+
+D
+100 buckets, 2000000 elements
+21530017 µs
+21530017535 ns
+21530 ms
+21 s
+0 m
+
+O
+100 buckets, 2000000 elements
+34850 µs
+34850373 ns
+34 ms
+0 s
+0 m
+
+PO
+100 buckets, 2000000 elements
+36892 µs
+36892062 ns
+36 ms
+0 s
+0 m
+
+A
+1000 buckets, 2000000 elements
+1012576 µs
+1012576313 ns
+1012 ms
+1 s
+0 m
+
+D
+1000 buckets, 2000000 elements
+1981208 µs
+1981208181 ns
+1981 ms
+1 s
+0 m
+
+O
+1000 buckets, 2000000 elements
+41513 µs
+41513159 ns
+41 ms
+0 s
+0 m
+
+PO
+1000 buckets, 2000000 elements
+42917 µs
+42917017 ns
+42 ms
+0 s
+0 m
+
